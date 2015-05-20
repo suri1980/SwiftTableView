@@ -31,9 +31,13 @@ Goto Main.Storyboard
     
 6. Create Referencing outlets for DataSource and Delegate to the ViewController. 
     -> Select View controller, 
+
     -> From the Connection Inspector 
+    
     -> Create New Referencing outlet by dragging to View Controller
+    
     -> Create references for both Delegate and DataSource
+    
 7. Add UITableViewDelegate and UITableViewDataSource classes in ViewController.swift
 
     class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
